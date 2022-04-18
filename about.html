@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+        <a href="/index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="mailto:oyeyemidesign@gmail.com">Contact</a>
+        <a
+          href="http://oyeyemidesign.artstation.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          >portfolio</a
+        >
+      </nav>
+    <main>
+        <h2>Read</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum hic impedit
+        suscipit quasi nulla delectus distinctio ipsum, magni aut ducimus nam eius
+        nisi repellat quod odio doloribus excepturi pariatur commodi error
+        officiis, eos corporis. Aliquam quo necessitatibus molestiae at. Enim
+        voluptas quos fuga ut perspiciatis alias, provident nemo a quidem.
+        </p>
+        <table>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Beautiful?</th>
+        <tr>
+            <td>cinderella</td>
+            <td>19</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td colspan="2">kiki</td>
+            <td>24</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Faith</td>
+            <td>20</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>viv</td>
+            <td>23</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>beth</td>
+            <td>23</td>
+            <td>yes</td>
+        </tr>
+        </table>
+        <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+        quibusdam commodi accusamus omnis quos dolorem, distinctio dolorum, rerum
+        facilis vitae dignissimos aut at sunt amet? Doloribus totam, cumque,
+        similique iste velit ullam quia praesentium eum id saepe delectus magni,
+        quibusdam ipsum! Corporis amet perferendis, officiis officia iste ea earum
+        repellat!
+        </p>
+        <form action="google.com" method="post">
+        <label for="name">username</label>
+        <input type="text" name="name" id="name" required /> <!--The required is a form validation-->
+        <br />
+        <label for="password">Password</label>
+        <input type="password" name="userpin" id="password" minlength="2" maxlength="5"/> <!--the min and maxlength is a form validation-->
+        <br />
+        <input type="submit" value="login" />
+        </form>
+        <h3>number form</h3>
+        <form action="google.com" method="get">
+        <label for="numbers">Age</label>
+        <input type="number" name="numb" id="numbers" step="1" min="1" max="100"/> <!--the min and max is a form validation-->
+        <br />
+        <label for="age">number of home</label>
+        <input type="range" name="age" id="age" min="0" max="100" step="1" />
+        </form>
+        <h3>Checkbox</h3>
+        <form>
+        <!--This check box allow us to select mulitple options -->
+        <p>choose your favorite college</p>
+        <label for="college">Depaul university</label>
+        <input type="checkbox" name="depaul" id="college" value="depaul" />
+        <br />
+        <label for="ucm">University of Cental Missouri</label>
+        <input type="checkbox" name="ucm" id="ucm" value="missouri" />
+        </form>
+        <form>
+        <!--This check box allow us to select just one options also we assign them same name to group the button together -->
+        <p>Do you Pray often?</p>
+        <label for="yes">Yes</label>
+        <input type="radio" name="answer" id="yes" />
+        <label for="No">No</label>
+        <input type="radio" name="answer" id="no" />
+        </form>
+        <form>
+            <p>Drop down</p>
+            <label for="breakfast">what's for breakfast?</label>
+            <select name="breakfast" id="breakfast">
+                <option value="pizza">pizza</option>
+                <option value="tacos">tacos</option>
+                <option value="salmon">salmon</option>
+            </select>
+        </form>
+        <form>
+            <p>Datalist input</p> <!-- i don't get this-->
+            <label for="travel">cities to visit in America</label>
+            <input type="text" name="travel">
+            <datalist id="travel">
+                <option value="Chicago"></option>
+                <option value="New York"></option>
+                <option value="Portland"></option>
+                <option value="Los Angeles"></option>
+            </datalist>    
+        </form>
+        <form action="google.com">
+            <h3>What do you think of this website?</h3>
+            <label for="feedback">Write something</label>
+            <br>
+            <textarea name="write" id="feedback" cols="30" rows="10">pre-filled...</textarea>
+            <br>
+            <input type="submit" value="send">
+        </form>
+        </body>
+    </main>
+    </body>
+  </body>
+</html>
